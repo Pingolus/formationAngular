@@ -32,16 +32,4 @@ export class StatistiqueComponent implements OnInit {
     this.demandeSuppression.emit();
   }
 
-  getColorClass() : string {
-    let border = "success";
-
-    switch(this.stat.appreciation) {
-      case Appreciation.AVERTISSEMENT : 
-        border = "warning";
-        break;
-      case Appreciation.ERREUR : 
-        border = "danger";
-    }
-    return border;
-  }
 }

@@ -12,13 +12,11 @@ import { AppComponent } from './app.component';
 import { AppRoutes } from './app.routing';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
-import { AppreciationToColorPipe } from './shared/pipes/appreciation-to-color.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AdminLayoutComponent,
-    AppreciationToColorPipe
+    AdminLayoutComponent
   ],
   imports: [
     BrowserAnimationsModule,
